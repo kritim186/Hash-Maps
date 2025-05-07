@@ -9,6 +9,5 @@ public class TreeMp {
         tm.put("Indonesia", 40);
         tm.put("USA", 50);
         System.out.println(tm);
-
     }
 }

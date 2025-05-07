@@ -15,11 +15,13 @@ class Demo{
         // System.out.println(hm.isEmpty());
 
         //Iteration on HashMap
-        Set<String> keys = hm.keySet();
-        for(String key:keys){
-            System.out.println("country = "+ key + " population in Cr is = "+hm.get(key));
-        }
-
+        // Set<String> keys = hm.keySet();
+        // for(String key:keys){
+        //     System.out.println("country = "+ key + " population in Cr is = "+hm.get(key));
+        // }
+        System.out.println(hm.get("Bhutan"));
+        System.out.println(hm.getOrDefault("Nepal", 0)+1);
+        //getOrdefault will take the default value if key does not exists
 
     }
 }
